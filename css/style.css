@@ -57,7 +57,8 @@ header {
 
 .card {
   opacity: .6;
-  position: relative; }
+  position: relative;
+  padding: 5%; }
   .card:hover {
     opacity: 1; }
   .card .card-title {
