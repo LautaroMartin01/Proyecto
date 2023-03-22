@@ -167,6 +167,57 @@ header {
   background: linear-gradient(360deg, transparent, rgb(1, 196, 1));
 }
 
+.loginbody {
+  justify-content: center;
+  display: flex;
+  align-items: center;
+  background-color: #323941;
+  flex-direction: column;
+  min-height: 100vh;
+}
+.loginbody .login {
+  background-color: #1a1e21;
+  padding: 30px;
+  border-radius: 20px;
+  max-width: 500px;
+}
+.loginbody .login .login-logo {
+  width: 100%;
+  margin: 50px 0;
+  display: flex;
+  justify-content: center;
+}
+.loginbody .login .login-logo img {
+  width: 70%;
+  padding: 30px;
+}
+.loginbody .login .login-iniciar {
+  width: 100%;
+  background-color: #3860ec;
+  display: inline-block;
+  padding: 25px;
+  cursor: pointer;
+  color: #fff;
+  text-transform: uppercase;
+  border-radius: 30px;
+  margin-bottom: 20px;
+  transition: 0.3s ease all;
+}
+.loginbody .login .login-iniciar:hover {
+  background: rgba(34, 71, 206, 0.7254901961);
+}
+.loginbody .login .login-registarse {
+  width: 100%;
+  color: #fff;
+  display: inline-block;
+  text-transform: uppercase;
+  border-radius: 5px;
+  margin-bottom: 20px;
+  text-align: center;
+  font-size: small;
+  text-decoration: underline;
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -187,4 +238,4 @@ header {
 }
 * ::-webkit-scrollbar-thumb:hover {
   background: linear-gradient(transparent, rgba(29, 153, 255, 0.651));
-}/*# sourceMappingURL=stylepages.css.map */
+}/*# sourceMappingURL=style.css.map */
