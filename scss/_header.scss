@@ -1,6 +1,13 @@
 header {
     margin: 1vh 1vw;
     z-index: 100;
+    position: fixed;
+    width: 98%;
+    top: 0;
+    border: 1px rgb(230, 225, 225) solid;
+}
+.navbar {
+    background:linear-gradient(to top, rgb(233, 230, 230),rgb(248, 246, 246));
 }
 .marca-navbar {
     font-family: 'Pacifico', cursive;
@@ -8,4 +15,5 @@ header {
 }
 .nav-item {
     margin-left: 1vw;
+    justify-content: space-between;
 }
