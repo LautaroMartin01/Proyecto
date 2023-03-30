@@ -15,6 +15,9 @@
     <title>Monky's Retail | Login</title>
 </head>
 <body class="loginbody">
+    <div id="contenedor-carga">
+        <div id="carga"></div>
+      </div>
     <div class="login">
         <div class="login-logo">
             <a href="../index.html"><img src="../img/Logo.png" alt="Logo"></a>
@@ -22,5 +25,12 @@
         <button class="login-iniciar"><a href="../html/Iniciar.html"><span style="color: #fff;">Iniciar Sesión</span></a></button>
         <a target="_blank" href="#" class="login-registarse">Registrate</a>
     </div>
+    <script>
+        window.onload = function () {
+          var contenedor = document.getElementById('contenedor-carga');
+          contenedor.style.visibility = 'hidden';
+          contenedor.style.opacity = '0;'
+        }
+      </script>
 </body>
 </html>

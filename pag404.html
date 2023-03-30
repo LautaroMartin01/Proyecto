@@ -15,6 +15,9 @@
     <title>Monky's Retail | Página 404</title>
 </head>
 <body class="body404">
+    <div id="contenedor-carga">
+        <div id="carga"></div>
+      </div>
     <header>
         <nav class="navbar navbar-expand-lg animate__animated animate__backInDown" style="border: 1px rgb(230, 225, 225) solid;">
             <div class="container-fluid">
@@ -39,5 +42,12 @@
             </div>
         </div>
     </main>
+    <script>
+        window.onload = function () {
+          var contenedor = document.getElementById('contenedor-carga');
+          contenedor.style.visibility = 'hidden';
+          contenedor.style.opacity = '0;'
+        }
+      </script>
 </body>
 </html>
