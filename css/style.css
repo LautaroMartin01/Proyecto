@@ -319,6 +319,7 @@ main {
 #carga {
   border: 15px solid #ccc;
   border-top-color: #306df0;
+  box-shadow: 0 0 30px #306df0, 0 0 700px #306df0, 0 0 100px #306df0;
   border-top-style: groove;
   height: 100px;
   width: 100px;
