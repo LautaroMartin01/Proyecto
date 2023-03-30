@@ -18,7 +18,7 @@
 </head>
 <body>
   <header>
-    <nav class="navbar navbar-expand-lg">
+    <nav class="navbar navbar-expand-lg animate__animated animate__backInDown" style="border: 1px rgb(230, 225, 225) solid;">
       <div class="container-fluid">
         <a class="navbar-brand marca-navbar" href="./index.html"><img src="img/Logo.png" alt="Logo" height="70vh"> Monky's Retail</a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -62,7 +62,7 @@
     </nav>
   </header>
   <main class="container">
-    <div class="card mb-3" style="width: 100%; height: auto;">
+    <div class="card mb-3 principal" style="height: auto;">
       <div class="row g-0">
         <div class="col-md-4">
           <img src="img/Zapatos gucci.avif" class="card-img" style="padding: 2%; height: 100%;" alt="Zapatilla">
@@ -72,7 +72,7 @@
             <h5 class="card-title">Zapatilla Gucci Tennis 1977</h5>
             <p class="card-text">Estas zapatillas Gucci Tennis 1977 actualizan un diseño clásico con lona en beige y lila con GG jumbo. La tribanda Web de color azul y rojo decora el lateral de las zapatillas, lo que intensifica la nota exclusiva del diseño.</p>
           </div>
-          <div class="precios">
+          <div class="precios principal-precios">
             <p class="precionow"></p>
           </div>
           <div>
@@ -87,120 +87,134 @@
         </div>
       </div>
     </div>
-    <div class="row">
-      <div class="card m-5" style="width: 25%; height: 50rem;">
-        <img src="img/Chanel5.jpg" class="card-img-top mt-2" alt="Zapatilla">
-        <div class="card-body">
-          <h5 class="card-title">Chanel N°5</h5>
-          <p class="card-text">N°5, la esencia misma de la feminidad. Un bouquet floral aldehído sublimado por un frasco emblemático con líneas minimalistas. Un perfume icónico y atemporal.</p>
+    <div class="container">
+      <div class="row row-cols-1 row-cols-md-2 g-4">
+        <div class="col">
+          <div class="card">
+            <img src="img/Chanel5.jpg" alt="Zapatilla">
+            <div class="card-body">
+              <h5 class="card-title">Chanel N°5</h5>
+              <p class="card-text">N°5, la esencia misma de la feminidad. Un bouquet floral aldehído sublimado por un frasco emblemático con líneas minimalistas. Un perfume icónico y atemporal.</p>
+            </div>
+            <div class="precios">
+              <p class="precionow">SALE $125,00</p>
+            </div>
+            <div>
+              <a target="_blank" href="./html/Login.html" class="buying-neon">
+                <span id="botonbuy1"></span>
+                <span id="botonbuy2"></span>
+                <span id="botonbuy3"></span>
+                <span id="botonbuy4"></span>
+                Comprar
+              </a>
+            </div>
+          </div>
         </div>
-        <div class="precios">
-          <p class="precionow">SALE $125,00</p>
+        <div class="col">
+          <div class="card">
+            <img src="img/Anillo Versace.png" alt="Zapatilla">
+            <div class="card-body">
+              <h5 class="card-title">Anillo Con Enamel Medusa Redonda</h5>
+              <p class="card-text">Este anillo dorado está adornado con un detalle esmaltado que presenta una Medusa en la parte central rodeada por un borde de Greca. Las piezas de joyería de Versace no contienen níquel ni plomo. Todos los materiales son hipoalergénicos.</p>
+            </div>
+            <div class="precios">
+              <p class="precionow">SALE $99,99</p>
+            </div>
+            <div>
+              <a target="_blank" href="./html/Login.html" class="buying-neon">
+                <span id="botonbuy1"></span>
+                <span id="botonbuy2"></span>
+                <span id="botonbuy3"></span>
+                <span id="botonbuy4"></span>
+                Comprar
+              </a>
+            </div>
+          </div>
         </div>
-        <div>
-          <a target="_blank" href="./html/Login.html" class="buying-neon">
-            <span id="botonbuy1"></span>
-            <span id="botonbuy2"></span>
-            <span id="botonbuy3"></span>
-            <span id="botonbuy4"></span>
-            Comprar
-          </a>
+        <div class="col">
+          <div class="card">
+            <img src="img/articulo2home-gucci.png" alt="bolso">
+            <div class="card-body">
+              <h5 class="card-title">Bolsa De Viaje Pequeña Con Doble G Tonal</h5>
+              <p class="card-text">Después de aparecer en artículos de marroquinería pequeños de colecciones previas, este aplique tono sobre tono ahora decora la línea de equipaje. El detalle esmaltado ofrece una expresión más suave de la emblemática Doble G, lo que se traduce en un accesorio de viaje más discreto.</p>
+            </div>
+            <div class="precios">
+              <p class="precionow">SALE $2.200,00</p>
+            </div>
+            <div>
+              <a target="_blank" href="./html/Login.html" class="buying-neon">
+                <span id="botonbuy1"></span>
+                <span id="botonbuy2"></span>
+                <span id="botonbuy3"></span>
+                <span id="botonbuy4"></span>
+                Comprar
+              </a>
+            </div>
+          </div>
         </div>
-      </div>
-      <div class="card m-5" style="width: 25%; height: 50rem;">
-        <img src="img/Anillo Versace.png" class="card-img-top mt-2" alt="Zapatilla">
-        <div class="card-body">
-          <h5 class="card-title">Anillo Con Enamel Medusa Redonda</h5>
-          <p class="card-text">Este anillo dorado está adornado con un detalle esmaltado que presenta una Medusa en la parte central rodeada por un borde de Greca. Las piezas de joyería de Versace no contienen níquel ni plomo. Todos los materiales son hipoalergénicos.</p>
+        <div class="col">
+          <div class="card">
+            <img src="img/articulo2-prada.png" alt="Funda para smartphone de Re-Nylon">
+            <div class="card-body">
+              <h5 class="card-title">Funda para smartphone de Re-Nylon</h5>
+              <p class="card-text">Esta funda para smartphone confeccionada con el innovador tejido Re-Nylon tiene un carácter urbano y moderno. El accesorio se distingue por la bandolera ajustable de nylon y el cierre de cordón. La parte delantera está decorada con el logo emblemático.</p>
+            </div>
+            <div class="precios">
+              <p class="precionow">SALE $1.450,00</p>
+            </div>
+            <div>
+              <a target="_blank" href="./html/Login.html" class="buying-neon">
+                <span id="botonbuy1"></span>
+                <span id="botonbuy2"></span>
+                <span id="botonbuy3"></span>
+                <span id="botonbuy4"></span>
+                Comprar
+              </a>
+            </div>
+          </div>
         </div>
-        <div class="precios">
-          <p class="precionow">SALE $99,99</p>
+        <div class="col">
+          <div class="card">
+            <img src="img/articulo4-vl.png" alt="BOTA ONE STUD TIPO BEATLE DE CUERO DE BECERRO CON TACÓN DE 45 MM">
+            <div class="card-body">
+              <h5 class="card-title">BOTA ONE STUD TIPO BEATLE DE CUERO DE BECERRO CON TACÓN DE 45 MM</h5>
+              <p class="card-text">Bota Valentino Garavani One Stud estilo Beatle de cuero de becerro con adorno de Maxi Stud.</p>
+            </div>
+            <div class="precios">
+              <p class="precionow">SALE $1.120,00</p>
+            </div>
+            <div>
+              <a target="_blank" href="./html/Login.html" class="buying-neon">
+                <span id="botonbuy1"></span>
+                <span id="botonbuy2"></span>
+                <span id="botonbuy3"></span>
+                <span id="botonbuy4"></span>
+                Comprar
+              </a>
+            </div>
+          </div>
         </div>
-        <div>
-          <a target="_blank" href="./html/Login.html" class="buying-neon">
-            <span id="botonbuy1"></span>
-            <span id="botonbuy2"></span>
-            <span id="botonbuy3"></span>
-            <span id="botonbuy4"></span>
-            Comprar
-          </a>
-        </div>
-      </div>
-      <div class="card m-5" style="width: 25%; height: 50rem;">
-        <img src="img/articulo2home-gucci.png" class="card-img-top mt-2" alt="bolso">
-        <div class="card-body">
-          <h5 class="card-title">Bolsa De Viaje Pequeña Con Doble G Tonal</h5>
-          <p class="card-text">Después de aparecer en artículos de marroquinería pequeños de colecciones previas, este aplique tono sobre tono ahora decora la línea de equipaje. El detalle esmaltado ofrece una expresión más suave de la emblemática Doble G, lo que se traduce en un accesorio de viaje más discreto.</p> <br>
-        </div>
-        <div class="precios">
-          <p class="precionow">SALE $2.200,00</p>
-        </div>
-        <div>
-          <a target="_blank" href="./html/Login.html" class="buying-neon">
-            <span id="botonbuy1"></span>
-            <span id="botonbuy2"></span>
-            <span id="botonbuy3"></span>
-            <span id="botonbuy4"></span>
-            Comprar
-          </a>
-        </div>
-      </div>
-      <div class="card m-5" style="width: 25%; height: 50rem;">
-        <img src="img/articulo2-prada.png" class="card-img-top mt-2" alt="Funda para smartphone de Re-Nylon">
-        <div class="card-body">
-          <h5 class="card-title">Funda para smartphone de Re-Nylon</h5>
-          <p class="card-text">Esta funda para smartphone confeccionada con el innovador tejido Re-Nylon tiene un carácter urbano y moderno. El accesorio se distingue por la bandolera ajustable de nylon y el cierre de cordón. La parte delantera está decorada con el logo emblemático.</p> <br>
-        </div>
-        <div class="precios">
-          <p class="precionow">SALE $1.450,00</p>
-        </div>
-        <div>
-          <a target="_blank" href="./html/Login.html" class="buying-neon">
-            <span id="botonbuy1"></span>
-            <span id="botonbuy2"></span>
-            <span id="botonbuy3"></span>
-            <span id="botonbuy4"></span>
-            Comprar
-          </a>
-        </div>
-      </div>
-      <div class="card m-5" style="width: 25%; height: 50rem;">
-        <img src="img/articulo4-vl.png" class="card-img-top mt-2" alt="BOTA ONE STUD TIPO BEATLE DE CUERO DE BECERRO CON TACÓN DE 45 MM">
-        <div class="card-body">
-          <h5 class="card-title">BOTA ONE STUD TIPO BEATLE DE CUERO DE BECERRO CON TACÓN DE 45 MM</h5>
-          <p class="card-text">Bota Valentino Garavani One Stud estilo Beatle de cuero de becerro con adorno de Maxi Stud.</p> <br>
-        </div>
-        <div class="precios">
-          <p class="precionow">SALE $1.120,00</p>
-        </div>
-        <div>
-          <a target="_blank" href="./html/Login.html" class="buying-neon">
-            <span id="botonbuy1"></span>
-            <span id="botonbuy2"></span>
-            <span id="botonbuy3"></span>
-            <span id="botonbuy4"></span>
-            Comprar
-          </a>
-        </div>
-      </div>
-      <div class="card m-5" style="width: 25%; height: 50rem;">
-        <img src="img/articulo1-hermes.png" class="card-img-top mt-2" alt="Mocasín París">
-        <div class="card-body">
-          <h5 class="card-title">Mocasín París</h5>
-          <p class="card-text">Mocasín en piel de becerro con detalle de la "H" de la firma chapada en permabrass.
-            Para un look elegante.</p> <br>
-        </div>
-        <div class="precios">
-          <p class="precionow">SALE $1.050,00</p>
-        </div>
-        <div>
-          <a target="_blank" href="./html/Login.html" class="buying-neon">
-            <span id="botonbuy1"></span>
-            <span id="botonbuy2"></span>
-            <span id="botonbuy3"></span>
-            <span id="botonbuy4"></span>
-            Comprar
-          </a>
+        <div class="col">
+          <div class="card">
+            <img src="img/articulo1-hermes.png" alt="Mocasín París">
+            <div class="card-body">
+              <h5 class="card-title">Mocasín París</h5>
+              <p class="card-text">Mocasín en piel de becerro con detalle de la "H" de la firma chapada en permabrass.
+              Para un look elegante.</p>
+            </div>
+            <div class="precios">
+              <p class="precionow">SALE $1.050,00</p>
+            </div>
+            <div>
+              <a target="_blank" href="./html/Login.html" class="buying-neon">
+                <span id="botonbuy1"></span>
+                <span id="botonbuy2"></span>
+                <span id="botonbuy3"></span>
+                <span id="botonbuy4"></span>
+                Comprar
+              </a>
+            </div>
+          </div>
         </div>
       </div>
     </div>
@@ -219,20 +233,20 @@
       </div>
       <div class="footer-cont">
         <h4>Sobre Nosotros</h4>
-        <p>Monky's Retail es una empresa dedicada al retail de indumentaria de lujo, así como, ropa de calle de alta gama, prendas de diseñador y la alta joyeria. Cuenta con una casa matriz ubicada en Buenos Aires, Argentina y varias filiales repartidas por Europa y Estados Unidos.
+        <p>Monky's Retail es una empresa dedicada al retail de indumentaria de lujo, así como, ropa de calle de alta gama, prendas de diseñador y la alta joyería. Cuenta con una casa matriz ubicada en Buenos Aires, Argentina y varias filiales repartidas por Europa y Estados Unidos.
         A su vez, Monky's Retail destina parte de sus ganancias a diversas ONG, tales como, <a href="https://www.mercycorps.org/" target="_blank">Mercy Corps</a>, <a href="https://www.care-international.org/" target="_blank">CARE International</a>,<a href="https://acumen.org/" target="_blank">Acumen Fund</a>, entre otras.</p>
       </div>
       <div class="footer-cont">
         <h4>Seguinos</h4>
         <ul>
           <li class="footer-cont-contact">
-            <a href="https://www.instagram.com/"><img src="img/Instagram.webp" alt="Instagram" height="25px"></a>
+            <a href="https://www.instagram.com/" target="_blank"><img src="img/Instagram.webp" alt="Instagram" height="25px"></a>
           </li>
           <li class="footer-cont-contact">
-            <a href="https://twitter.com/"><img src="img/Twitter-logo.svg.webp" alt="Twitter" height="25px"></a>
+            <a href="https://twitter.com/" target="_blank"><img src="img/Twitter-logo.svg.webp" alt="Twitter" height="25px"></a>
           </li>
-          <li>
-            <a href="https://www.youtube.com/"><img src="img/Youtube_logo.png" alt="Youtube" height="25px"></a>   
+          <li class="footer-cont-contact">
+            <a href="https://www.youtube.com/" target="_blank"><img src="img/Youtube_logo.png" alt="Youtube" height="25px"></a>   
           </li>
         </ul> 
       </div>

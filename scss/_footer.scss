@@ -2,7 +2,7 @@ footer {
     background-color: #323232;
     margin: 0 auto;
     text-decoration: none;
-    width: auto;
+    width: 100%;
     bottom: 0;
     visibility: visible;
 }
@@ -11,14 +11,12 @@ footer {
     width: auto;
     justify-content: space-between;
     margin: auto;
-    padding-bottom: 20px;
-    margin-left: 20px;
+    padding-bottom: 2%;
+    margin: 2%;
     .footer-cont {
         h4 {
             color: #fff;
             border-bottom: 3px solid #f2c640;
-            padding-bottom: 5px;
-            margin-bottom: 10px;
         }
         p{
             color: rgba(206, 202, 202, 0.795);
@@ -27,7 +25,7 @@ footer {
             color: rgba(206, 202, 202, 0.795);
             list-style: none;
             li {
-                padding: 5px;
+                padding: 1%;
                 a {
                     display: inline-block;
                     color: rgba(206, 202, 202, 0.795);
@@ -42,14 +40,14 @@ footer {
 }
 .footer-cont-copy {
     background-color: #1f2b40;
-    padding: 15px 0;
+    padding: .5% 0;
     display: flex;
     width: auto;
     justify-content: space-between;
     border: 3px solid rgba(32, 32, 32, 0.623);
     h2 {
         font-size: 23px;
-        margin: 15px 0 15px 25px;
+        margin: 1% 0 1% 1%;
         color: rgba(206, 202, 202, 0.795);
     }
 } 

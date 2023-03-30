@@ -4,16 +4,19 @@ header {
     position: fixed;
     width: 98%;
     top: 0;
-    border: 1px rgb(230, 225, 225) solid;
 }
 .navbar {
     background:linear-gradient(to top, rgb(233, 230, 230),rgb(248, 246, 246));
 }
 .marca-navbar {
     font-family: 'Pacifico', cursive;
-    font-size: x-large;
+    font-size: xx-large;
 }
 .nav-item {
     margin-left: 1vw;
     justify-content: space-between;
+    &:hover {
+        font-size: 20px;
+        transition: 1s;
+    }
 }

@@ -1,0 +1,47 @@
+.iniciar {
+    position: relative;
+    background-color: #1a1e21;
+    padding: 30px;
+    border-radius: 20px;
+    max-width: 500px;
+    img {
+        width: 100%;
+        padding: 30px;
+        border-radius: 50px;
+    }
+    .iniciar-seccion {
+        color: #fff;
+        justify-content: left;
+        form {
+            .partes {
+                padding: 1.5%;
+                margin: 0 auto;
+                text-align: left;
+                input {
+                    width: 100%;
+                }
+                .check {
+                    width: auto;
+                    position: absolute;
+                    left: 5;
+                    display: flex;
+                }
+            }
+            button {
+                margin-top: 5%;
+                width: 100%;
+                background-color: #3860ec;
+                display: inline-block;
+                padding: 25px;
+                cursor: pointer;
+                text-transform: uppercase;
+                border-radius: 30px;
+                margin-bottom: 20px;
+                transition: .3s ease all;
+                &:hover {
+                    background: #2247ceb9;
+                }
+            }
+        }
+    }
+}

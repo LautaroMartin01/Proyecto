@@ -12,15 +12,33 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="../css/style.css">
-    <title>Monky's Retail | Login</title>
+    <title>Monky's Retail | Iniciar Sección</title>
 </head>
 <body class="loginbody">
-    <div class="login">
-        <div class="login-logo">
+    <div class="iniciar">
+        <div>
             <a href="../index.html"><img src="../img/Logo.png" alt="Logo"></a>
         </div>
-        <button class="login-iniciar"><a href="../html/Iniciar.html"><span style="color: #fff;">Iniciar Sesión</span></a></button>
-        <a target="_blank" href="#" class="login-registarse">Registrate</a>
+        <div class="iniciar-seccion">
+            <form>
+                <div class="partes">
+                    <label for="email">Dirección De Correo Electrónico</label><br>
+                    <input type="email" id="email" style="font-style: italic;" placeholder=" Introduce la dirección de correo electrónico">
+                </div>
+                <div class="partes">
+                    <label for="contraseña">Contraseña</label><br>
+                    <input type="password" id="contraseña" style="font-style: italic;" placeholder=" Intoduce tu contraseña">
+                </div>
+                <div class="partes">
+                    <div class="check">
+                        <input type="checkbox"> Recordarme
+                    </div>
+                </div>
+                <div class="partes">
+                    <button class="boton-iniciar-sesion"><a href="../index.html"><span style="color: #fff;">Iniciar Sesión</span></a></button>
+                </div>
+            </form>
+        </div>
     </div>
 </body>
 </html>

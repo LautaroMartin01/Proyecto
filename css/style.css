@@ -2,7 +2,7 @@ footer {
   background-color: #323232;
   margin: 0 auto;
   text-decoration: none;
-  width: auto;
+  width: 100%;
   bottom: 0;
   visibility: visible; }
 
@@ -11,20 +11,18 @@ footer {
   width: auto;
   justify-content: space-between;
   margin: auto;
-  padding-bottom: 20px;
-  margin-left: 20px; }
+  padding-bottom: 2%;
+  margin: 2%; }
   .footer-container .footer-cont h4 {
     color: #fff;
-    border-bottom: 3px solid #f2c640;
-    padding-bottom: 5px;
-    margin-bottom: 10px; }
+    border-bottom: 3px solid #f2c640; }
   .footer-container .footer-cont p {
     color: rgba(206, 202, 202, 0.795); }
   .footer-container .footer-cont ul {
     color: rgba(206, 202, 202, 0.795);
     list-style: none; }
     .footer-container .footer-cont ul li {
-      padding: 5px; }
+      padding: 1%; }
       .footer-container .footer-cont ul li a {
         display: inline-block;
         color: rgba(206, 202, 202, 0.795);
@@ -34,14 +32,14 @@ footer {
 
 .footer-cont-copy {
   background-color: #1f2b40;
-  padding: 15px 0;
+  padding: .5% 0;
   display: flex;
   width: auto;
   justify-content: space-between;
   border: 3px solid rgba(32, 32, 32, 0.623); }
   .footer-cont-copy h2 {
     font-size: 23px;
-    margin: 15px 0 15px 25px;
+    margin: 1% 0 1% 1%;
     color: rgba(206, 202, 202, 0.795); }
 
 header {
@@ -49,19 +47,21 @@ header {
   z-index: 100;
   position: fixed;
   width: 98%;
-  top: 0;
-  border: 1px #e6e1e1 solid; }
+  top: 0; }
 
 .navbar {
   background: linear-gradient(to top, #e9e6e6, #f8f6f6); }
 
 .marca-navbar {
   font-family: 'Pacifico', cursive;
-  font-size: x-large; }
+  font-size: xx-large; }
 
 .nav-item {
   margin-left: 1vw;
   justify-content: space-between; }
+  .nav-item:hover {
+    font-size: 20px;
+    transition: 1s; }
 
 main {
   margin-top: 9rem; }
@@ -174,8 +174,9 @@ main {
       display: flex;
       justify-content: center; }
       .loginbody .login .login-logo img {
-        width: 70%;
-        padding: 30px; }
+        width: 100%;
+        padding: 30px;
+        border-radius: 50px; }
     .loginbody .login .login-iniciar {
       width: 100%;
       background-color: #3860ec;
@@ -199,6 +200,111 @@ main {
       text-align: center;
       font-size: small;
       text-decoration: underline; }
+
+@media screen and (max-width: 768px) {
+  .card {
+    width: 90%; }
+    .card:hover {
+      width: 95%; }
+  .principal:hover {
+    height: 55rem;
+    width: 100%;
+    transition: .5s; }
+  .principal .principal-precios {
+    padding: 10%; } }
+
+@media (min-width: 768px) and (max-width: 992px) {
+  .card {
+    width: 90%; }
+    .card .precios {
+      display: block; }
+    .card:hover {
+      width: 95%; }
+      .card:hover .precios {
+        display: block; } }
+
+@media (min-width: 400px) and (max-width: 1024px) {
+  .loginbody {
+    margin: 2%; }
+  .body404 {
+    position: relative; }
+    .body404 .main404 {
+      display: inline-block; }
+      .body404 .main404 .imagen-404 {
+        bottom: 0;
+        left: 0; }
+      .body404 .main404 .texto404 {
+        margin-top: 7rem;
+        margin-bottom: 10rem; } }
+
+.iniciar {
+  position: relative;
+  background-color: #1a1e21;
+  padding: 30px;
+  border-radius: 20px;
+  max-width: 500px; }
+  .iniciar img {
+    width: 100%;
+    padding: 30px;
+    border-radius: 50px; }
+  .iniciar .iniciar-seccion {
+    color: #fff;
+    justify-content: left; }
+    .iniciar .iniciar-seccion form .partes {
+      padding: 1.5%;
+      margin: 0 auto;
+      text-align: left; }
+      .iniciar .iniciar-seccion form .partes input {
+        width: 100%; }
+      .iniciar .iniciar-seccion form .partes .check {
+        width: auto;
+        position: absolute;
+        left: 5;
+        display: flex; }
+    .iniciar .iniciar-seccion form button {
+      margin-top: 5%;
+      width: 100%;
+      background-color: #3860ec;
+      display: inline-block;
+      padding: 25px;
+      cursor: pointer;
+      text-transform: uppercase;
+      border-radius: 30px;
+      margin-bottom: 20px;
+      transition: .3s ease all; }
+      .iniciar .iniciar-seccion form button:hover {
+        background: #2247ceb9; }
+
+.body404 {
+  background-color: #a5b4c2;
+  padding: 0;
+  margin: auto 0; }
+
+.main404 {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  text-decoration: none; }
+  .main404 .imagen-404 {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: auto;
+    height: auto; }
+  .main404 .texto404 {
+    display: inline-block;
+    width: 80%;
+    margin-top: 15rem; }
+    .main404 .texto404 .no-llores {
+      color: black;
+      font-size: 7rem;
+      font-weight: bold; }
+    .main404 .texto404 .texto-pag404 {
+      font-size: 3rem;
+      font-weight: lighter; }
+    .main404 .texto404 .cupon {
+      font-size: 5rem;
+      font-weight: 500; }
 
 * {
   margin: 0;

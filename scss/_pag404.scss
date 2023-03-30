@@ -1,0 +1,36 @@
+.body404 {
+    background-color: rgb(165, 180, 194);
+    padding: 0;
+    margin: auto 0;
+}
+.main404 {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    text-decoration: none;
+    .imagen-404 {
+        position: fixed;
+        left: 0;
+        bottom: 0;
+        width: auto;
+        height: auto;
+    }
+    .texto404 {
+        display: inline-block;
+        width: 80%;
+        margin-top: 15rem;
+        .no-llores {
+            color: black;
+            font-size: 7rem; 
+            font-weight: bold;
+        }
+        .texto-pag404 {
+            font-size: 3rem;
+            font-weight: lighter;
+        }
+        .cupon {
+            font-size: 5rem;
+            font-weight: 500;
+        }
+    }
+}
