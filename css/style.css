@@ -264,7 +264,8 @@ main {
         width: auto;
         position: absolute;
         left: 5;
-        display: flex; }
+        display: flex;
+        left: 0; }
     .iniciar .iniciar-seccion form button {
       margin-top: 5%;
       width: 100%;
@@ -282,7 +283,8 @@ main {
 .body404 {
   background-color: #a5b4c2;
   padding: 0;
-  margin: auto 0; }
+  margin: auto 0;
+  z-index: 1000; }
 
 .main404 {
   display: flex;
