@@ -22,7 +22,8 @@ footer {
     color: rgba(206, 202, 202, 0.795);
     list-style: none; }
     .footer-container .footer-cont ul li {
-      padding: 1%; }
+      padding: 1%;
+      left: 0; }
       .footer-container .footer-cont ul li a {
         display: inline-block;
         color: rgba(206, 202, 202, 0.795);
